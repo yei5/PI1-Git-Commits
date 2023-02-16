@@ -1,7 +1,7 @@
 public class Car {
 
-    private final boolean wheels;
-    private final int cylinders;
+    private boolean wheels;
+    private int cylinders;
 
     public Car(boolean wheels, int cylinders) {
         this.wheels = wheels;
@@ -10,6 +10,14 @@ public class Car {
 
     public boolean isWheels() {
         return wheels;
+    }
+
+    public void setWheels(boolean wheels) {
+        this.wheels = wheels;
+    }
+
+    public void setCylinders(int cylinders) {
+        this.cylinders = cylinders;
     }
 
     public int getCylinders() {
