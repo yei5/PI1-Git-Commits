@@ -7,4 +7,12 @@ public class Car {
         this.wheels = wheels;
         this.cylinders = cylinders;
     }
+
+    public boolean isWheels() {
+        return wheels;
+    }
+
+    public int getCylinders() {
+        return cylinders;
+    }
 }
