@@ -9,6 +9,7 @@ public class Main {
             cars.add(new Car(true, i));
         }
 
+
         System.out.println("Hello world!");
 
         System.out.println("Ahh");
